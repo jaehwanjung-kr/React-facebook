@@ -5,10 +5,11 @@ import LocalHospitalIcon from "@material-ui/icons/LocalHospital";
 import EmojiFlagsIcon from "@material-ui/icons/EmojiFlags";
 import PeopleIcon from "@material-ui/icons/People";
 import ChatIcon from "@material-ui/icons/Chat";
-import StorefrontIcon from "@material-ui/icons/Storefront";
-import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
+import EventIcon from "@material-ui/icons/Event";
 import { ExpandMoreOutlined } from "@material-ui/icons";
-
+import OndemandVideoIcon from "@material-ui/icons/OndemandVideo";
+import HistoryIcon from "@material-ui/icons/History";
+import TurnedInIcon from "@material-ui/icons/TurnedIn";
 function Sidebar() {
   return (
     <div className="sidebar">
@@ -20,11 +21,13 @@ function Sidebar() {
         Icon={LocalHospitalIcon}
         title="COVID-19 Information Center"
       />
-      <SidebarRow Icon={EmojiFlagsIcon} title="Pages" />
       <SidebarRow Icon={PeopleIcon} title="Friends" />
+      <SidebarRow Icon={OndemandVideoIcon} title="Watch" />
+      <SidebarRow Icon={EventIcon} title="Events" />
+      <SidebarRow Icon={HistoryIcon} title="On This Day" />
+      <SidebarRow Icon={TurnedInIcon} title="Saved" />
+      <SidebarRow Icon={EmojiFlagsIcon} title="Pages" />
       <SidebarRow Icon={ChatIcon} title="Messenger" />
-      <SidebarRow Icon={StorefrontIcon} title="Marketplace" />
-      <SidebarRow Icon={VideoLibraryIcon} title="Videos" />
       <SidebarRow Icon={ExpandMoreOutlined} title="See More" />
     </div>
   );
