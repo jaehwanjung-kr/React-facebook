@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
+import Sidebar from "./Sidebar";
 import Feed from "./Feed";
 import Header from "./Header";
-import Sidebar from "./Sidebar";
-import Sponsored from "./Sponsored";
+import RightSidebar from "./RightSidebar";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <div className="app__body">
         <Sidebar />
         <Feed />
-        <Sponsored />
+        <RightSidebar />
       </div>
     </div>
   );
