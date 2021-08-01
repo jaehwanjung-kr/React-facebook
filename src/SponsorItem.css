@@ -1,0 +1,19 @@
+.sponsorItem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sponsorItem:hover {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.sponsorItem > h4 {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.sponsorItem > img {
+  size: 50px;
+}
