@@ -10,13 +10,12 @@ import { ExpandMoreOutlined } from "@material-ui/icons";
 import OndemandVideoIcon from "@material-ui/icons/OndemandVideo";
 import HistoryIcon from "@material-ui/icons/History";
 import TurnedInIcon from "@material-ui/icons/TurnedIn";
+import { useStateValue } from "./StateProvider";
 function Sidebar() {
+  const [{ user }, dispatch] = useStateValue();
   return (
     <div className="sidebar">
-      <SidebarRow
-        src="https://avatars.githubusercontent.com/u/81987239?v=4"
-        title="Jaehwan Jung"
-      />
+      <SidebarRow src={user.photoUrl} title={user.displayName} />
       <SidebarRow
         Icon={LocalHospitalIcon}
         title="COVID-19 Information Center"
