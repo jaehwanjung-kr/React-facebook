@@ -24,7 +24,7 @@ function Sidebar() {
       <SidebarRow Icon={PeopleIcon} title="Friends" />
       <SidebarRow Icon={OndemandVideoIcon} title="Watch" />
       <SidebarRow Icon={EventIcon} title="Events" />
-      <SidebarRow Icon={HistoryIcon} title="On This Day" />
+      <SidebarRow Icon={HistoryIcon} title="Memories" />
       <SidebarRow Icon={TurnedInIcon} title="Saved" />
       <SidebarRow Icon={EmojiFlagsIcon} title="Pages" />
       <SidebarRow Icon={ChatIcon} title="Messenger" />

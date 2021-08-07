@@ -1,17 +1,17 @@
 import React from "react";
-import Contacts from "./Contacts";
 import "./RightSidebar.css";
-import Sponsored from "./Sponsored";
+import RightSidebarRow from "./RightSidebarRow";
 
 function RightSidebar() {
   return (
     <div className="rightSidebar">
-      <div className="rightSidebar__Top">
-        <Sponsored />
-      </div>
-      <div className="rightSidebar__Bottom">
-        <Contacts />
-      </div>
+      <RightSidebarRow src="" title="" />
+      <RightSidebarRow src="" title="" />
+      <RightSidebarRow src="" title="" />
+      <RightSidebarRow src="" title="" />
+      <RightSidebarRow src="" title="" />
+      <RightSidebarRow src="" title="" />
+      <RightSidebarRow src="" title="" />
     </div>
   );
 }
